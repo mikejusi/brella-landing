@@ -2,3 +2,39 @@
     padding: 0;
     margin: 0;
 }
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.d-flex{
+    display: flex;
+}
+
+header{
+    height: 90px;
+}
+
+.btn__cstm{
+    color: white!important;
+    background-color: #43806C;
+    padding: 10px 15px;
+    border-radius: 6px;
+}
+
+.head__link{
+    gap: 50px;
+}
+
+.head__link li a{
+    font-family: 'Raleway';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: #214E41;
+}
