@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Raleway';
 }
 
 a{
@@ -11,12 +12,22 @@ ul{
     list-style: none;
 }
 
+.head__link li{
+    padding: 0 34px;
+}
+
 .d-flex{
     display: flex;
 }
 
 header{
+    box-shadow: 0 0 4px 4px rgb(0 0 0 / 5%);
+    z-index: 9999;
     height: 90px;
+
+
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
 }
 
 .btn__cstm{
@@ -27,14 +38,50 @@ header{
 }
 
 .head__link{
-    gap: 50px;
+    align-items: center;
 }
 
 .head__link li a{
-    font-family: 'Raleway';
     font-size: 14px;
     font-weight: 700;
     line-height: 20px;
     letter-spacing: 0em;
     color: #214E41;
+}
+
+.logo{
+    width: 75px;
+}
+
+header .p-head{
+    padding: 34px 45px;
+}
+
+.me-auto{
+    margin-right: auto;
+}
+
+.parralax{
+    background-image: url(/assets/img/pre-main.jpg);
+    /* height: 76vh; */
+    height: 90vh;
+
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 0;
+    padding-bottom: 120px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-position: 50% 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.why{
+    background-color: white;
 }
