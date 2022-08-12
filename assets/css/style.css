@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Raleway';
+    font-family: Raleway,sans-serif;
 }
 
 a{
@@ -13,6 +13,7 @@ ul{
 }
 
 .head__link li{
+    margin-left: 3px;
     padding: 0 34px;
 }
 
@@ -54,7 +55,7 @@ header{
 }
 
 header .p-head{
-    padding: 34px 45px;
+    padding: 31px 45px;
 }
 
 .me-auto{
@@ -63,15 +64,7 @@ header .p-head{
 
 .parralax{
     background-image: url(/assets/img/pre-main.jpg);
-    /* height: 76vh; */
     height: 90vh;
-
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    padding-top: 0;
-    padding-bottom: 120px;
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
@@ -82,6 +75,47 @@ header .p-head{
     background-attachment: fixed;
 }
 
-.why{
+.bg-white{
     background-color: white;
+}
+
+.content{
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.mb-100{
+    margin-bottom: 100px;
+}
+
+.info__hd{
+    margin: 0 100px;
+    padding: 50px;
+    border-radius: 6px;
+    box-shadow: 1px 1px 4px 0 rgb(232 230 230 / 60%);
+    grid-column-gap: 16px;
+}
+
+.info__hd .col-4 img{
+    width: auto;
+    height: 45px;
+    margin-top: 5px;
+    margin-right: 10px;
+    padding-top: 0;
+}
+
+.h__info__hd{
+    color: #214e41;
+    margin-bottom: 5px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+.p__info__hd{
+    color: #214e41;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
 }
