@@ -21,6 +21,14 @@ ul{
     display: flex;
 }
 
+.d-grid{
+    display: grid;
+}
+
+.w-50{
+    width: 50%;
+}
+
 header{
     box-shadow: 0 0 4px 4px rgb(0 0 0 / 5%);
     z-index: 9999;
@@ -89,6 +97,52 @@ header .p-head{
     margin-bottom: 100px;
 }
 
+.px-100{
+    padding: 0 100px;
+}
+
+.py-134{
+    padding: 134px 0;
+}
+
+.base__info{
+    width: auto;
+}
+
+.w-53{
+    width: 53%;
+}
+
+.sub__heading{
+    margin-bottom: 16px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #214e41;
+}
+
+select::after{
+    padding-right: 20px;
+}
+
+select{
+    box-shadow: 1px 1px 3px 0 rgb(232 230 230 / 60%);
+    border: 1px solid white;
+    padding: 20px 20px 20px 20px;
+}
+
+.base__info h1{
+    font-family: 'Euclid circular a',sans-serif;
+    margin-right: 100px;
+    margin-bottom: 40px;
+    padding-right: 0;
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 700;
+    margin: .67em 0;
+    color: #214e41;
+}
+
 .info__hd{
     margin: 0 100px;
     padding: 50px;
@@ -118,4 +172,73 @@ header .p-head{
     font-size: 14px;
     line-height: 20px;
     font-weight: 400;
+}
+
+
+footer{
+    padding: 100px 0 50px 0;
+    background-color: #214e41;
+}
+
+.footer__grid{
+
+}
+
+.footer__heading{
+    margin-bottom: 15px;
+    color: #fff;
+    line-height: 24px;
+    font-weight: 600;
+    text-align: left;
+    letter-spacing: .02px;
+    text-transform: uppercase;
+}
+
+.footer__link a{
+    color: #fff;
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.footer__link{
+    grid-row-gap: 15px;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+}
+
+.btm__heading{
+    border-bottom: 1px solid #fff;
+    grid-column-gap: 16px;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 70px;
+    padding-bottom: 70px;
+    grid-template-rows: auto;
+}
+
+.row{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
+.col-4{
+    flex: 0 0 auto;
+    width: 33.3333333333%;
+}
+
+.social__end .w-50{
+    margin-left: auto;
+}
+
+.footer__text{
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
 }
