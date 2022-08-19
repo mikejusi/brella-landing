@@ -188,10 +188,6 @@ footer{
     background-color: #214e41;
 }
 
-.footer__grid{
-
-}
-
 .footer__heading{
     margin-bottom: 15px;
     color: #fff;
@@ -271,6 +267,10 @@ footer{
     text-decoration: none;
     cursor: pointer;
     border-radius: 0;
+}
+
+.footer-col{
+    height: fit-content;
 }
 
 .footer__form-field{
@@ -369,4 +369,44 @@ footer{
     font-size: 20px;
     line-height: 34px;
     font-weight: 400;
+}
+
+.social-media{
+    margin-top: 20px;
+}
+
+.social-media a{
+    margin-right: 25px;
+    color: white;
+    font-size: 1.7rem;
+}
+
+.terms{
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 90px;
+}
+
+.nmb{
+    color: white;
+}
+
+.terms-btm-text{
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: left;
+}
+
+.terms-btm-text-und{
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: 1px solid #fff;
+}
+
+.ms-auto{
+    margin-left: auto;
 }
