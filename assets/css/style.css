@@ -328,16 +328,13 @@ footer{
     font-weight: 700;
 }
 
-.bg-50{
-
-}
-
 .brings{
     padding: 120px;
     background-image: linear-gradient(90deg,#e3eeed,#e3eeed 50%,#214e41 0,#214e41);
 }
 
 .brings__link a{
+    cursor: pointer;
     color: #43806c;
     padding: 9px 30px;
     font-family: 'Euclid circular a',sans-serif;
@@ -351,16 +348,8 @@ footer{
     transition: 0.2s;
 }
 
-.brings__link a i{
+.d-none{
     display: none;
-}
-
-.brings__link a .active__arrow{
-    display: contents !important;;
-}
-
-.active__brings__content{
-    display: inherit !important;;
 }
 
 .brings .content .pre-header{
@@ -374,7 +363,6 @@ footer{
 }
 
 .text__brings{
-    display: none;
     padding-left: 100px;
     margin-bottom: 0;
     color: #fff;
