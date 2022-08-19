@@ -25,6 +25,14 @@ ul{
     display: grid;
 }
 
+.w-100{
+    width: 100%;
+}
+
+.h-100{
+    height: 100%;
+}
+
 .w-50{
     width: 50%;
 }
@@ -290,4 +298,32 @@ footer{
     display: flex;
     margin-bottom: 10px;
     border: 1px solid #fff;
+}
+
+.bg-gr{
+    background-color: #e3eeed;
+}
+
+.p__info{
+    padding: 132px 0 0 120px;
+}
+
+.p__info h2{
+    width: 60%;
+    margin-top: 0;
+    color: #214e41;
+    font-family: 'Euclid circular a',sans-serif;
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 700;
+}
+
+.p__info p{
+    padding: 60px 0;
+    margin-top: 0;
+    color: #214e41;
+    font-family: 'Euclid circular a',sans-serif;
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 700;
 }
